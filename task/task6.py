@@ -1,6 +1,13 @@
 slovo = str(input())
-a = slovo[::-1]
-if slovo == a:
-    print("yes")
+a = []
+b = []
+for i in slovo:
+    a.append(i)
+    b.append(i)
+a.reverse()
+# print(b)
+# print(a)
+if b == a:
+    print('Yes')
 else:
-    print("no")
+    print('No')
